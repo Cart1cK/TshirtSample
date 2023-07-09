@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  header {
+    background-color: #222;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  nav {
+    margin-top: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  nav ul li {
+    float: left;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .container {
+    margin: 20px auto;
+    max-width: 800px;
+  }
+  
+  .tshirt-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .tshirt {
+    background-color: #444;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .tshirt h3 {
+    margin-top: 0;
+  }
+  
+  footer {
+    background-color: #222;
+    padding: 20px;
+    align-self: last baseline;
+    text-align: center;
+  }
+  
